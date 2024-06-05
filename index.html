@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jéssika Portfólio</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <a href="#" class="logo"><span>J</span>essika</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="https://github.com/jessikaneves">Projetos</a></li>
+            <li><a href="https://www.linkedin.com/in/jessika-neves30/">Linkedln</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="https://wa.me/+5581997513449?text=Olá, Vamos conversar! :)" class="btn">Vamos Conversar...
+                <i class='bx bxl-whatsapp'></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3> 💕 Fique a vontade para conhecer melhor o meu trabalho...</h3>
+            <h1>Olá! Sou Jéssika Neves</h1>
+
+            <div class="text-animate">
+                <h2 id="typing"></h2>
+            </div>
+            <div id="about" style="text-align: justify; line-height: 1.5;">
+                <p><strong>🌟 Jéssika Neves, 31 anos ...</strong></p>
+                <p>🎓 Sou formada em Manutenção e Suporte de Informática pelo ETEPAM e estou cursando Engenharia de Software pela UniCesumar, além de Técnico em Análise e Desenvolvimento de Sistemas pelo ETEPAC. Tenho mais de 2 anos de experiência como educadora social e professora de informática. Atualmente, sou aspirante a desenvolvedora Backend Java Jr.</p>
+                <p>💕 Apaixonada por programação, busco constantemente aprimorar minhas habilidades e aplicar meus conhecimentos em projetos desafiadores. Dedico-me a facilitar o acesso à tecnologia e a criar ambientes inclusivos e acolhedores.</p>
+                <p>🤝 Estou comprometida em entregar soluções de alta qualidade, alinhadas com as melhores práticas da indústria e as necessidades dos clientes. Sou uma aprendiz dedicada, pronta para contribuir com minha paixão pela tecnologia e meu comprometimento com a excelência.</p>
+            </div>
+
+            <div class="btn-box">
+                <a href="#" class="btn">Contrate-me agora ! <i class='bx bx-right-arrow-alt'></i></a>
+                <a href="https://drive.google.com/file/d/1MmzjPE3Kr1OK36KKgmISS8NEHE7YqX3o/view" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="https://www.linkedin.com/in/jessika-neves30/"><i class='bx bxl-linkedin'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://github.com/jessikaneves"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://www.tiktok.com/@httpjessyb.neves?_t=8mZh1sOlbYj&_r=1"><i class='bx bxl-tiktok'></i></a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="img-hero">
+            <img src="./assets/img/fotoPerfil.png" alt="">
+        </div>
+    </section>
+
+    <section id="contato" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <form action="https://formspree.io/f/mvoejprv" method="POST" style="display: flex; flex-direction: column; align-items: center; width: 300px;">
+            <label style="margin-bottom: 10px; width: 100%;">
+                Digite seu email:
+                <input type="email" name="email" style="width: 100%; height: 40px; margin-top: 5px;">
+            </label>
+            <label style="margin-bottom: 10px; width: 100%;">
+                Deixe sua mensagem:
+                <textarea name="message" style="width: 100%; margin-top: 5px; height: 150px;"></textarea>
+            </label>
+            <button type="submit" style="background-color: purple; color: white; padding: 10px 20px; border: none; border-radius: 25px; font-size: 16px; margin-top: 10px;">
+                Enviar
+            </button>
+        </form>
+
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
